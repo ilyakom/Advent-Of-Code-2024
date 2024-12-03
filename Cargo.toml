@@ -5,3 +5,4 @@ edition = "2021"
 
 [dependencies]
 fs = "0.0.5"
+regex = "1.11.1"
