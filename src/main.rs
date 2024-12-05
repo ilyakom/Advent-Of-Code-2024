@@ -1,6 +1,6 @@
 use std::env;
 
-#[path = "./day3/day3.rs"] mod day;
+#[path = "./day4/day4.rs"] mod day;
 
 fn main() {
     env::set_var("RUST_BACKTRACE", "1");
