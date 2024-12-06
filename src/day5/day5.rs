@@ -9,7 +9,8 @@ pub fn solve() {
     let mut map = HashMap::new();
     let lines = read_to_string(file_name).unwrap();
 
-    let mut rules = true;
+    let robot_x = 0;
+    let robot_y = 0;
 
     for line in lines.lines() {
         if line.len() == 0 {
