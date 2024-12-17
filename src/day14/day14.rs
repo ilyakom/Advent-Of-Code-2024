@@ -11,8 +11,6 @@ pub fn solve() {
     let wide = 101; //11 // 101
     let tall = 103; //7  // 103
 
-    
-
     for line in lines.lines() {
 
         let pv:Vec<&str> = line.split(" ").collect();
@@ -47,7 +45,6 @@ pub fn solve() {
             for x in 0..wide {
                 if points.contains(&(x, y)) {
                     in_a_row += 1;
-
                     if in_a_row > 6 {
                         stop = true;
                     }
