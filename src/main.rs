@@ -2,7 +2,7 @@
 use std::env;
 use std::time::Instant;
 
-#[path = "./day17/day17.rs"] mod day;
+#[path = "./day18/day18.rs"] mod day;
 
 fn main() {
     env::set_var("RUST_BACKTRACE", "1");
